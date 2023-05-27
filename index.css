@@ -1,8 +1,19 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Consolas, "Microsoft YaHei", play;
 }
+
+
+@font-face {
+	font-family: MyFont;
+	src: url(https://yy.liveout.cn/13.woff2) format('woff2'),
+  }
+  
+  body {
+	font-family: MyFont, sans-serif;
+  }
+
+
 a{
 	color: #000000;
 }
