@@ -1,7 +1,4 @@
-# Personal HomePage
-## 介绍
-个人博客网站简洁主页
+# personal guide page
+ 个人引导页，适用于个人网站首页：
 
-## 主页演示图
-<img src="https://yy.liveout.cn/article/project/blog_index1.png" style="zoom:50%;" />
-
+![](show-off/Xnip2021-12-29_14-33-20.jpg)

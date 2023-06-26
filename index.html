@@ -1,37 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 
 <head>
 	<meta charset="utf-8">
-	<title>Echo|SITE</title> <!--站点名称-->
-	<link rel="shortcut icon" href="https://yy.liveout.cn/photo/photo2.jpg" /> 、<!--站点头像-->
-	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-		name="viewport">
-	<link rel="stylesheet" href="index.css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="renderer" content="webkit">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="date=no">
+	<title>Echo-Site</title>
+	<meta name="keywords" content="Echo">
+	<meta name="description" content="index_page">
+	<style>
+		.left {
+			width: 50%
+		}
 
+		.right {
+			width: 50%
+		}
+	</style>
+	<link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 
-<body>
-	<!--背景连线-->
+<body class="home blog">
+
 	<script type="text/javascript" src="canvas-nest.min.js"></script>
 	<canvas id="myCanvas"></canvas>
 
-	<div id="container">
-		<div class="wrap">
-			<img src="https://yy.liveout.cn/photo/photo2.jpg">
-			<h1>ECHO's BLOG
-			</h1>
-			<p class="fontb">A Sophomore Student Of Internet & Things @ XZHMU</p>
-			<nav>
-				<ul>
-					<li><a href="https://www.liveout.cn/" target="_blank">Blog</a></li>
-					<li><a href="https://www.liveout.cn/learn/" target="_blank">Article</a></li>
-					<li><a href="https://www.liveout.cn/message/" target="_blank">Contact</a></li>
-					<li><a href="https://www.liveout.cn/about/" target="_blank">About</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+	<div class="wrapper">
+		<section class="left" style="background-image: url('https://yy.liveout.cn/background/2023/219_1.png');">
+		</section>
+		<section class="right">
+			<div class="index_box">
+				<div class="index_txt">
+					<div class="wrap">
+						<img src="https://yy.liveout.cn/photo/photo2.jpg" alt="">
+					</div>
+					<h1>Echo</h1>
+					<p>Life is a coding,I will debug it.</p>
+					<div class="zuobiao"><i class="ico_map"></i> 徐州·中国</div>
+					<div >
+						<nav>
+							<ul>
+								<li><a href="https://www.liveout.cn/" target="_blank">Blog</a></li>
+								<li><a href="https://www.liveout.cn/learn/" target="_blank">Article</a></li>
+								<li><a href="https://www.liveout.cn/message/" target="_blank">Contact</a></li>
+								<li><a href="https://www.liveout.cn/about/" target="_blank">About</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<footer class="right_foot">
+				<div class="right_f_l">
+					<p>
+						<span> <a href="https://www.liveout.cn/" target="_blank"> Echo © 2023 </a></span>
+					</p>
+				</div>
+			</footer>
+		</section><!--right-->
+	</div><!--wrapper-->
+	<script type="text/javascript" src="js/js.js"></script>
 </body>
 
 </html>
